@@ -33,6 +33,16 @@ v._ // 'foo'
 v.edges.outgoing // []
 v.edges.incoming // []
 ```
+
+##### Graph.getVertex(id:String):Vertex
+Get a reference to the Vertex with `vertex.id === id`.  Note that at the
+current time there is no equivalent `getEdge(id:String)` api.
+
+```javascript
+
+g.getVertex('1') // v { id: '1', _: 'foo' }
+
+```
 ##### Graph.addEdge(weight:Number, sourceId:String, targetId:String, data:*=null):Edge
 Adds a new edge to the graph originating from one vertex to another.
 At your option, you may add some metadata to the edge.
