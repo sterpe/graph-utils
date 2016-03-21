@@ -1,6 +1,8 @@
 {
   "name": "graph-utils",
   "version": "0.0.0",
+  "description": "Utilities for working with graphs in javascript.",
+  "main": "dist/index.js",
   "scripts": {
     "make": "make $@",
     "precommit": "make test",
@@ -14,5 +16,25 @@
     "jasmine-reporters": "^1.0.2",
     "jest-cli": "^0.9.0",
     "standard": "^6.0.5"
-  }
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sterpe/graph-utils.git"
+  },
+  "keywords": [
+    "graph",
+    "utility",
+    "tree",
+    "binary",
+    "tree",
+    "node",
+    "dag"
+  ],
+  "author": "sterpe <srterpe@gmail.com> (https://github.com/sterpe)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sterpe/graph-utils/issues"
+  },
+  "homepage": "https://github.com/sterpe/graph-utils#readme"
 }
